@@ -4,5 +4,9 @@
 		<h2>Spring MVC Demo Application Home Page</h2>
 		<hr>
 		<a href="showForm">Hello World Form</a>
+		<hr>
+		<!-- 
+		<img src="${pageContext.request.contextPath}/resources/images/myImage.jpg">
+		 -->
 	</body>
 </html>

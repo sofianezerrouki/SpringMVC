@@ -10,6 +10,13 @@
 	
 	Student Name : 	${param.studentName}
 	<hr>
+	The message : ${message}
+	<hr>
 	<a href="/springMvcDemo/">home page</a>
+	<hr>
+	
 	</body>
+	
+	
+	
 </html>
