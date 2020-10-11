@@ -22,7 +22,7 @@ public class StudentController {
 	@RequestMapping("processForm")
 	public String processStudentForm(@ModelAttribute("student") Student theStudent) {
 		//log the input data 
-		//System.out.println("the Student: "+theStudent.getFirstName()+" "+ theStudent.getLastName());
+		System.out.println("the Student: "+theStudent.getFirstName()+" "+ theStudent.getLastName());
 		return "studentConfirmation";
 	}
 	
